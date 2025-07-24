@@ -5,9 +5,9 @@
   font-weight: 800;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
-.display-flax{
+.display-flex{
   display: flex;
 }
 .navbar{
@@ -18,4 +18,12 @@
 }
 .nav-item{
   list-style: none;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
