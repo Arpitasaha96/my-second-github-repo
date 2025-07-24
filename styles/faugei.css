@@ -7,3 +7,15 @@
   font-variation-settings:
     "wdth" 100;
 }
+.display-flax{
+  display: flex;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.nav-item{
+  list-style: none;
+}
