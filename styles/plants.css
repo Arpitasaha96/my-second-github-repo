@@ -1,7 +1,8 @@
-.product-section {
+.plants-section{
   text-align: center;
-  padding: 20px 80px;
+  padding: 20px 20px;
   background-color: #f9f9ff;
+  margin-top: 5px;
 }
 
 .main{
@@ -44,10 +45,11 @@
 .lily-title{
     text-align: center;
 }
+.product-card {
+  width: calc(25% - 15px);}
 
-@media screen and (max-width: 576px) {
-    .product-grid{
-        flex-direction: column;
-    }
-    
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: calc(50% - 10px);
+  }
 }

@@ -1,0 +1,30 @@
+.image-container {
+      flex: 1;
+      position: relative;
+      width: 50%;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .badge {
+        width: 250px;
+        height: 250px;
+         position: absolute;
+         padding-bottom: -5px;
+      right: 5px;
+      top: -5px;
+     
+      }
+      .flower-section{
+        display: flex;
+        margin-top: 50px;
+      }
+      .banner-content{
+       width: 540px;
+       height: 520px;
+      }
+
+   @media screen and (max-width: 768px) {
+ .flower-section, .banner-content{
+    flex-direction: column;
+ }
+}   
