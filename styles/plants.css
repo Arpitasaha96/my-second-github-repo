@@ -1,0 +1,53 @@
+.product-section {
+  text-align: center;
+  padding: 20px 80px;
+  background-color: #f9f9ff;
+}
+
+.main{
+    max-width: 1140px;
+    margin: 0 ;
+    padding: 90px;}
+
+.banner-title{
+    text-align: center;
+}
+.banner-description{
+    text-align: center;
+}
+.lily-image{
+    width: 270px;
+    height: 322px;
+    text-align: center;
+
+}
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.add-to-cart{
+    background-color: #E95A08;
+   width: 270px;
+   height: 50px;
+   padding: 0px 5px 5px 5px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+.product-grid{
+    display: flex;
+    justify-content: space-between;
+   gap: 20px;
+   flex-wrap: wrap;  
+}
+.lily-title{
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .product-grid{
+        flex-direction: column;
+    }
+    
+}

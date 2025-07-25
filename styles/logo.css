@@ -57,6 +57,7 @@
 .banner-content{
   gap: 0;
   width: 570px;
+  text-align: left;
 }
 
 .banner-description{
@@ -65,10 +66,12 @@
 }
 .banner-image{
   width: 580px;
+  align-items: right;
+
 }
 
-@media screen and ( max-width:576px){
-  .navbar,  .banner{
+@media screen and (max-width: 576px){
+  .navbar , .banner{
     flex-direction: column;
   }
 }
