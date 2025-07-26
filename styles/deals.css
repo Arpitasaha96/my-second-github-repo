@@ -1,0 +1,42 @@
+ .deals-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+.deals-img{
+     position: relative;
+      overflow: hidden;
+      border-radius: 30px 30px 30px 30px;
+
+}
+.zabo-image{
+      flex: 2;
+      min-width: 300px;
+
+}
+ .deals-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+      min-width: 250px;}
+
+.deal-text {
+       position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px black;
+    }
+    .deal-text-big{
+        font-weight: 40px;
+    }
+    @media  (max-width: 768px) {
+      .deals-container {
+        flex-direction: column;
+      }
+    }
