@@ -35,8 +35,22 @@
     .deal-text-big{
         font-weight: 40px;
     }
-    @media  (max-width: 768px) {
-      .deals-container {
+@media screen and (max-width: 768px){
+    .deals-container {
         flex-direction: column;
-      }
+        align-items: center;
     }
+    .deals-img {
+        width: 100%;
+        height: auto;
+    }
+    .deals-left {
+        width: 100%;
+        text-align: center;
+    }
+    .deal-text {
+        font-size: 20px;
+  
+}      
+    }
+      
